@@ -1,0 +1,167 @@
+# Test Cases: 0111217: [NELSOFT] shouldn't be to apply both a government-mandated discount and a Zero-Rated discount
+
+## TC_001
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the Senior 20% discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The senior 20% discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the senior 20% discount is already applied.
+- A warning prompt should display "Senior discount already applied."
+
+**Actual Result:** As expected — the POS does not allow the zero-rated discount to be added. A warning prompt displayed "Senior discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_002
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the Senior 5% discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The senior 5% discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the senior 5% discount is already applied.
+- A warning prompt should display "Senior discount already applied."
+
+**Actual Result:** As expected — the POS does not allow zero-rated discount to be added. A warning prompt displayed "Senior discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_003
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the PWD 20% discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The PWD 20% discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the PWD 20% discount is already applied.
+- A warning prompt should display "PWD discount already applied."
+
+**Actual Result:** As expected — the POS does not allow zero-rated discount to be added. A warning prompt displayed "PWD discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_004
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the PWD 5% discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The PWD 5% discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the PWD 5% discount is already applied.
+- A warning prompt should display "PWD discount already applied."
+
+**Actual Result:** As expected — the POS does not allow zero-rated discount to be added. A warning prompt displayed "PWD discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_005
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the PNST discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The PNST discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the PNST discount is already applied.
+- A warning prompt should display "PNST discount already applied."
+
+**Actual Result:** As expected — the POS does not allow zero-rated discount to be added. A warning prompt displayed "PNST discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_006
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the Solo Parent discount before the zero-rated discount.
+**Precondition:**
+- The product is already added.
+- The Solo Parent discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F9 Zero Rated
+3. Observe
+
+**Expected Result:**
+- The POS should not allow zero-rated discount to be added if the Solo Parent discount is already applied.
+- A warning prompt should display "Solo Parent discount already applied."
+
+**Actual Result:** As expected — the POS does not allow zero-rated discount to be added. A warning prompt displayed "Solo Parent discount already applied."
+
+**Status:** ✅ PASSED
+
+---
+
+## TC_007
+**Objective:** Check if the POS allows the government discount and the zero-rated discount to be used at the same time.
+**Scenario:** Verify if the user applies the Zero-rated discount before the government discounts.
+**Precondition:**
+- The product is already added.
+- The zero-rated discount is already applied.
+
+**Priority:** P
+
+**Steps:**
+1. Click F12 Menu
+2. Click F7 Govnt Discounts
+3. Observe
+
+**Expected Result:**
+- The POS should not allow government discounts to be added if the zero-rated discount is already applied.
+- A warning prompt should display "Zero-rated discount already applied."
+
+**Actual Result:** As expected — the POS does not allow government discounts to be added. A warning prompt displayed "Zero-rated discount already applied."
+
+**Status:** ✅ PASSED
